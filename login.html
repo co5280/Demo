@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/reglog.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="reglog-container">
+    <div class="userreg-top">
+        <span class="h3">登录</span>
+        <span class="glyphicon glyphicon-remove pull-right remove"></span>
+    </div>
+    <div class="userreg-center">
+        <form action="#" method="">
+            <input type="text" name="username" placeholder="请输入用户名">
+            <span class="userpwd">
+                   <input type="password"  name="password" placeholder="请输入密码">
+                   <span class="showpwd"><a class="glyphicon glyphicon-eye-open" alt="显示密码" title="显示密码"></a></span>
+            </span>
+            <div class="checkpwd">
+                <input type="checkbox" value="记住密码" id="rembpwd" style="width: 15px;height: 15px" >
+                <label for="">记住密码</label>
+            </div>
+          <!--  <span><input type="text" id="checkcode" name="checkcode"><img src="images/seccode.png" alt=""></span>-->
+            <input type="submit" value="登录" class="btn btn-info">
+        </form>
+    </div>
+    <div class="userreg-bottom">
+        <span class="h4"><a href="register.html">立即注册</a></span>
+    </div>
+</div>
+</body>
+</html>

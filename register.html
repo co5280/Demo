@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/reglog.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="reglog-container">
+        <div class="userreg-top">
+            <span class="h3">注册</span>
+            <span class="glyphicon glyphicon-remove pull-right remove"></span>
+        </div>
+
+        <div class="userreg-center">
+            <div class="promptinfo text-center" ></div>
+            <form action="action/register.php" method="post">
+                <input type="text" name="username" placeholder="请输入6-12位数的用户名">
+                <span class="userpwd">
+                   <input type="password"  id="password"name="password" placeholder="请输入6-18位数的密码">
+                   <span class="showpwd"><a class="glyphicon glyphicon-eye-open" alt="显示密码" title="显示密码"></a></span>
+                </span>
+                <span class="userpwd">
+                   <input type="password"  name="repassword" placeholder="确认密码">
+                </span>
+              <!-- <span><input type="text" id="checkcode" name="checkcode"><img src="images/seccode.png" alt=""></span>-->
+                <input type="submit" value="注册" class="btn btn-info">
+            </form>
+        </div>
+        <div class="userreg-bottom">
+            <span class="h4"><a href="login.html">返回登录</a></span>
+        </div>
+    </div>
+</body>
+</html>
